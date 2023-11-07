@@ -11,5 +11,6 @@ urlpatterns = [
     path('store/', views.store, name='store'),
     path('store/category/<slug:category_slug>', views.store, name='product_by_category'),
     path('store/category/<slug:category_slug>/<slug:product_slug>/', views.product_detail, name='product_detail'),
-    path('store/search/', views.search, name='search')
+    path('store/search/', views.search, name='search'),
+    path('store/submit_review/<int:product_id>/', views.submit_review, name="submit_review" ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
