@@ -7,5 +7,6 @@ name = "pypi"
 django = "*"
 pillow = "*"
 requests = "*"
+django-honeypot = "*"
 
 [dev-packages]
