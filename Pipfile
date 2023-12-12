@@ -8,5 +8,6 @@ django = "*"
 pillow = "*"
 requests = "*"
 django-honeypot = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
