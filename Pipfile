@@ -9,5 +9,6 @@ pillow = "*"
 requests = "*"
 django-honeypot = "*"
 psycopg2-binary = "*"
+decouple = "*"
 
 [dev-packages]
