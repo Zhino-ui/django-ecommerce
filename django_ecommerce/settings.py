@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY', default='')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 
-ALLOWED_HOSTS = ['ecom-dev-env.eba-myrvv8kq.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['django-comem-env.eba-h8hphpr2.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
